@@ -15,6 +15,8 @@ problems:
       McMullen's problem, Larman conjecture f(5)=11, convex position,
       general position 점 배치, oriented matroid 의 acyclic reorientation,
       Lawrence oriented matroid, tope graph, signed permutation.
+      접근 도구: polyhedral matching fields, tropical geometry,
+      triangulations of products of simplices, chirotope, realizability.
     keywords:
       - "mcmullen"
       - "convex position"
@@ -27,29 +29,15 @@ problems:
       - "permissible projective transformation"
       - "reorientations"
       - "larman"
-      - "roudneff conjecture"
-      - "toric"
-      - "linkage"
-      - "flag variety"
-      - "sturmfels"
-    exclude_keywords:        # 이 단어가 있으면 후보에서 제외(무관 주제 차단)
-      - "machine learning"
-      - "neural network"
-
-  - id: "matching-fields"
-    name: "Polyhedral matching fields"
-    description: |
-      polyhedral matching fields, tropical geometry, matching field,
-      Lawrence oriented matroids 의 일반화, regular vs non-regular triangulation,
-      realizability, chirotope, point configuration.
-    keywords:
+      - "roudneff"
       - "matching field"
       - "tropical"
       - "triangulation"
-      - "non-regular"
-      - "realizab"
       - "chirotope"
-      - "point configuration"
+      - "realizab"
+    exclude_keywords:
+      - "machine learning"
+      - "neural network"
 
 # 공통 관심(Tverberg 등)을 별도 문제로 두고 싶으면 위에 항목을 더 추가하세요.
 
